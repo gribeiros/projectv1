@@ -2,7 +2,7 @@ package com.v1.project.model;
 
 import lombok.*;
 
-import java.util.Date;
+import java.sql.Date;
 
 @Getter
 @Setter
