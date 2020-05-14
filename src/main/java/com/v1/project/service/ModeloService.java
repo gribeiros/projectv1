@@ -2,9 +2,11 @@ package com.v1.project.service;
 
 import com.v1.project.dao.ModeloDAO;
 import com.v1.project.model.Modelo;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+@Service
 public class ModeloService {
 
     public List<Modelo> findAll() {

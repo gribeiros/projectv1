@@ -2,9 +2,11 @@ package com.v1.project.service;
 
 import com.v1.project.dao.MarcaDAO;
 import com.v1.project.model.Marca;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+@Service
 public class MarcaService {
 
     public List<Marca> findAll() {
