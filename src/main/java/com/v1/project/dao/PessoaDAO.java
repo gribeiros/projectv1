@@ -17,7 +17,7 @@ public class PessoaDAO {
 
     public static boolean save(Pessoa pessoa) {
         final Connection con = ConnectionFactory.getConnection();
-        String sql = "INSERT INTO t1.pessoa (cpf, data_nascimento, endereco, nome, telefone) VALUES(?,?,?,?,?)";
+        String sql = "INSERT INTO pessoa (cpf, data_nascimento, endereco, nome, telefone) VALUES(?,?,?,?,?)";
         PreparedStatement stmt = null;
 
         try {

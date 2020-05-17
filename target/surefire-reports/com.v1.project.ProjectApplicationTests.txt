@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.v1.project.ProjectApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.274 s - in com.v1.project.ProjectApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.42 s - in com.v1.project.ProjectApplicationTests
