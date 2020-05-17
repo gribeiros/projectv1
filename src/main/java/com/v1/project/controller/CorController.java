@@ -33,7 +33,7 @@ public class CorController {
         }
     }
 
-    @PutMapping(path = "/{id}")
+    @PutMapping(path = "")
     public ResponseEntity update(@RequestBody Cor cor) {
 
         if (corService.update(cor)) {

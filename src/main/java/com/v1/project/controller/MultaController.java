@@ -33,7 +33,7 @@ public class MultaController {
         }
     }
 
-    @PutMapping(path = "/{id}")
+    @PutMapping(path = "")
     public ResponseEntity update(@RequestBody Multa multa) {
 
         if (multaService.update(multa)) {

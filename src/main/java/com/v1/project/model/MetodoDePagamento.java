@@ -10,6 +10,6 @@ import lombok.*;
 public class MetodoDePagamento {
 
     private Long id;
-    private String metodoPagaMento;
+    private String metodoPagamento;
 
 }

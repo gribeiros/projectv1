@@ -33,7 +33,7 @@ public class ModeloController {
         }
     }
 
-    @PutMapping(path = "/{id}")
+    @PutMapping(path = "")
     public ResponseEntity update(@RequestBody Modelo modelo) {
 
         if (modeloService.update(modelo)) {

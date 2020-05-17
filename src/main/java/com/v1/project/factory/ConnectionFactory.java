@@ -6,9 +6,9 @@ import java.sql.*;
 public class ConnectionFactory {
 
     private static String DRIVER = "com.mysql.cj.jdbc.Driver";
-    private static String URL = "jdbc:mysql://localhost:3306/prjibike?serverTimezone=UTC&useLegacyDatetimeCode=false";
-    private static String USER = "root";
-    private static String PASS = "root";
+    private static String URL = "jdbc:mysql://localhost:3306/t1?serverTimezone=UTC&useLegacyDatetimeCode=false";
+    private static String USER = "t1";
+    private static String PASS = "root1";
 
     public static Connection getConnection() {
         try {

@@ -2,6 +2,7 @@ package com.v1.project.dao;
 
 import com.v1.project.factory.ConnectionFactory;
 import com.v1.project.model.Cor;
+import org.springframework.stereotype.Repository;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -11,11 +12,12 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
+@Repository
 public class CorDAO {
 
     public static boolean save(Cor cor) {
         final Connection con = ConnectionFactory.getConnection();
-        String sql = "insert into cor(name) values(?);";
+        String sql = "insert into cor(nome) values(?)";
         PreparedStatement stmt = null;
 
         try {
@@ -64,7 +66,7 @@ public class CorDAO {
         final Connection con = ConnectionFactory.getConnection();
         PreparedStatement stmt = null;
         ResultSet rs = null;
-        String sql = "select * from cor where id=?;";
+        String sql = "select * from cor where id=?";
         Cor cor = new Cor();
 
         try {
@@ -88,7 +90,7 @@ public class CorDAO {
 
     public static boolean update(Cor cor) {
         final Connection con = ConnectionFactory.getConnection();
-        String sql = "UPDATE cor SET nome=? WHERE id=?;";
+        String sql = "UPDATE cor SET nome=? WHERE id=?";
         PreparedStatement stmt = null;
 
         try {
@@ -107,7 +109,7 @@ public class CorDAO {
 
     public static boolean delete(Long id) {
         final Connection con = ConnectionFactory.getConnection();
-        String sql = "delete from cor where id = ?;";
+        String sql = "delete from cor where id = ?";
         PreparedStatement stmt = null;
 
         try {

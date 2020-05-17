@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.v1.project.ProjectApplicationTests" time="4.151" tests="1" errors="1" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.v1.project.ProjectApplicationTests" time="4.274" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="BR"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_231\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\GUSTAVO\AppData\Local\Temp\surefire2544399466299131823\surefirebooter719915955906575982.jar C:\Users\GUSTAVO\AppData\Local\Temp\surefire2544399466299131823 2020-05-14T19-40-44_878-jvmRun1 surefire5015163318913345327tmp surefire_08659054859623717736tmp"/>
+    <property name="sun.java.command" value="C:\Users\GUSTAVO\AppData\Local\Temp\surefire4520113842629469576\surefirebooter7202369578452229430.jar C:\Users\GUSTAVO\AppData\Local\Temp\surefire4520113842629469576 2020-05-16T16-31-31_877-jvmRun1 surefire2867312544895601557tmp surefire_08516560797646196164tmp"/>
     <property name="surefire.test.class.path" value="C:\Users\GUSTAVO\Documents\ProjetoIntegrador\projectv1\target\test-classes;C:\Users\GUSTAVO\Documents\ProjetoIntegrador\projectv1\target\classes;C:\Users\GUSTAVO\.m2\repository\org\springframework\boot\spring-boot-starter-web\2.2.7.RELEASE\spring-boot-starter-web-2.2.7.RELEASE.jar;C:\Users\GUSTAVO\.m2\repository\org\springframework\boot\spring-boot-starter\2.2.7.RELEASE\spring-boot-starter-2.2.7.RELEASE.jar;C:\Users\GUSTAVO\.m2\repository\org\springframework\boot\spring-boot\2.2.7.RELEASE\spring-boot-2.2.7.RELEASE.jar;C:\Users\GUSTAVO\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\2.2.7.RELEASE\spring-boot-autoconfigure-2.2.7.RELEASE.jar;C:\Users\GUSTAVO\.m2\repository\org\springframework\boot\spring-boot-starter-logging\2.2.7.RELEASE\spring-boot-starter-logging-2.2.7.RELEASE.jar;C:\Users\GUSTAVO\.m2\repository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;C:\Users\GUSTAVO\.m2\repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;C:\Users\GUSTAVO\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.12.1\log4j-to-slf4j-2.12.1.jar;C:\Users\GUSTAVO\.m2\repository\org\apache\logging\log4j\log4j-api\2.12.1\log4j-api-2.12.1.jar;C:\Users\GUSTAVO\.m2\repository\org\slf4j\jul-to-slf4j\1.7.30\jul-to-slf4j-1.7.30.jar;C:\Users\GUSTAVO\.m2\repository\jakarta\annotation\jakarta.annotation-api\1.3.5\jakarta.annotation-api-1.3.5.jar;C:\Users\GUSTAVO\.m2\repository\org\yaml\snakeyaml\1.25\snakeyaml-1.25.jar;C:\Users\GUSTAVO\.m2\repository\org\springframework\boot\spring-boot-starter-json\2.2.7.RELEASE\spring-boot-starter-json-2.2.7.RELEASE.jar;C:\Users\GUSTAVO\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.4\jackson-databind-2.10.4.jar;C:\Users\GUSTAVO\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.4\jackson-annotations-2.10.4.jar;C:\Users\GUSTAVO\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.4\jackson-core-2.10.4.jar;C:\Users\GUSTAVO\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.10.4\jackson-datatype-jdk8-2.10.4.jar;C:\Users\GUSTAVO\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.10.4\jackson-datatype-jsr310-2.10.4.jar;C:\Users\GUSTAVO\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.10.4\jackson-module-parameter-names-2.10.4.jar;C:\Users\GUSTAVO\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\2.2.7.RELEASE\spring-boot-starter-tomcat-2.2.7.RELEASE.jar;C:\Users\GUSTAVO\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\9.0.34\tomcat-embed-core-9.0.34.jar;C:\Users\GUSTAVO\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\9.0.34\tomcat-embed-el-9.0.34.jar;C:\Users\GUSTAVO\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\9.0.34\tomcat-embed-websocket-9.0.34.jar;C:\Users\GUSTAVO\.m2\repository\org\springframework\boot\spring-boot-starter-validation\2.2.7.RELEASE\spring-boot-starter-validation-2.2.7.RELEASE.jar;C:\Users\GUSTAVO\.m2\repository\jakarta\validation\jakarta.validation-api\2.0.2\jakarta.validation-api-2.0.2.jar;C:\Users\GUSTAVO\.m2\repository\org\hibernate\validator\hibernate-validator\6.0.19.Final\hibernate-validator-6.0.19.Final.jar;C:\Users\GUSTAVO\.m2\repository\org\jboss\logging\jboss-logging\3.4.1.Final\jboss-logging-3.4.1.Final.jar;C:\Users\GUSTAVO\.m2\repository\com\fasterxml\classmate\1.5.1\classmate-1.5.1.jar;C:\Users\GUSTAVO\.m2\repository\org\springframework\spring-web\5.2.6.RELEASE\spring-web-5.2.6.RELEASE.jar;C:\Users\GUSTAVO\.m2\repository\org\springframework\spring-beans\5.2.6.RELEASE\spring-beans-5.2.6.RELEASE.jar;C:\Users\GUSTAVO\.m2\repository\org\springframework\spring-webmvc\5.2.6.RELEASE\spring-webmvc-5.2.6.RELEASE.jar;C:\Users\GUSTAVO\.m2\repository\org\springframework\spring-aop\5.2.6.RELEASE\spring-aop-5.2.6.RELEASE.jar;C:\Users\GUSTAVO\.m2\repository\org\springframework\spring-context\5.2.6.RELEASE\spring-context-5.2.6.RELEASE.jar;C:\Users\GUSTAVO\.m2\repository\org\springframework\spring-expression\5.2.6.RELEASE\spring-expression-5.2.6.RELEASE.jar;C:\Users\GUSTAVO\.m2\repository\mysql\mysql-connector-java\8.0.20\mysql-connector-java-8.0.20.jar;C:\Users\GUSTAVO\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\GUSTAVO\.m2\repository\org\springframework\boot\spring-boot-starter-test\2.2.7.RELEASE\spring-boot-starter-test-2.2.7.RELEASE.jar;C:\Users\GUSTAVO\.m2\repository\org\springframework\boot\spring-boot-test\2.2.7.RELEASE\spring-boot-test-2.2.7.RELEASE.jar;C:\Users\GUSTAVO\.m2\repository\org\springframework\boot\spring-boot-test-autoconfigure\2.2.7.RELEASE\spring-boot-test-autoconfigure-2.2.7.RELEASE.jar;C:\Users\GUSTAVO\.m2\repository\com\jayway\jsonpath\json-path\2.4.0\json-path-2.4.0.jar;C:\Users\GUSTAVO\.m2\repository\net\minidev\json-smart\2.3\json-smart-2.3.jar;C:\Users\GUSTAVO\.m2\repository\net\minidev\accessors-smart\1.2\accessors-smart-1.2.jar;C:\Users\GUSTAVO\.m2\repository\org\ow2\asm\asm\5.0.4\asm-5.0.4.jar;C:\Users\GUSTAVO\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\GUSTAVO\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\GUSTAVO\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\GUSTAVO\.m2\repository\org\junit\jupiter\junit-jupiter\5.5.2\junit-jupiter-5.5.2.jar;C:\Users\GUSTAVO\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.5.2\junit-jupiter-api-5.5.2.jar;C:\Users\GUSTAVO\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\GUSTAVO\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\GUSTAVO\.m2\repository\org\junit\platform\junit-platform-commons\1.5.2\junit-platform-commons-1.5.2.jar;C:\Users\GUSTAVO\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.5.2\junit-jupiter-params-5.5.2.jar;C:\Users\GUSTAVO\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.5.2\junit-jupiter-engine-5.5.2.jar;C:\Users\GUSTAVO\.m2\repository\org\junit\platform\junit-platform-engine\1.5.2\junit-platform-engine-1.5.2.jar;C:\Users\GUSTAVO\.m2\repository\org\mockito\mockito-junit-jupiter\3.1.0\mockito-junit-jupiter-3.1.0.jar;C:\Users\GUSTAVO\.m2\repository\org\assertj\assertj-core\3.13.2\assertj-core-3.13.2.jar;C:\Users\GUSTAVO\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\GUSTAVO\.m2\repository\org\mockito\mockito-core\3.1.0\mockito-core-3.1.0.jar;C:\Users\GUSTAVO\.m2\repository\net\bytebuddy\byte-buddy\1.10.10\byte-buddy-1.10.10.jar;C:\Users\GUSTAVO\.m2\repository\net\bytebuddy\byte-buddy-agent\1.10.10\byte-buddy-agent-1.10.10.jar;C:\Users\GUSTAVO\.m2\repository\org\objenesis\objenesis\2.6\objenesis-2.6.jar;C:\Users\GUSTAVO\.m2\repository\org\skyscreamer\jsonassert\1.5.0\jsonassert-1.5.0.jar;C:\Users\GUSTAVO\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar;C:\Users\GUSTAVO\.m2\repository\org\springframework\spring-core\5.2.6.RELEASE\spring-core-5.2.6.RELEASE.jar;C:\Users\GUSTAVO\.m2\repository\org\springframework\spring-jcl\5.2.6.RELEASE\spring-jcl-5.2.6.RELEASE.jar;C:\Users\GUSTAVO\.m2\repository\org\springframework\spring-test\5.2.6.RELEASE\spring-test-5.2.6.RELEASE.jar;C:\Users\GUSTAVO\.m2\repository\org\xmlunit\xmlunit-core\2.6.4\xmlunit-core-2.6.4.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\GUSTAVO"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\GUSTAVO\AppData\Local\Temp\surefire2544399466299131823\surefirebooter719915955906575982.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\GUSTAVO\AppData\Local\Temp\surefire4520113842629469576\surefirebooter7202369578452229430.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_231\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_231\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -60,159 +60,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="contextLoads" classname="com.v1.project.ProjectApplicationTests" time="0.003">
-    <error message="Failed to load ApplicationContext" type="java.lang.IllegalStateException">java.lang.IllegalStateException: Failed to load ApplicationContext
-Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'marcaController': Unsatisfied dependency expressed through field 'marcaService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.v1.project.service.MarcaService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
-Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.v1.project.service.MarcaService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
-</error>
-    <system-out><![CDATA[19:40:47.059 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
-19:40:47.100 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
-19:40:47.161 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.v1.project.ProjectApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
-19:40:47.199 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.v1.project.ProjectApplicationTests], using SpringBootContextLoader
-19:40:47.209 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.v1.project.ProjectApplicationTests]: class path resource [com/v1/project/ProjectApplicationTests-context.xml] does not exist
-19:40:47.209 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.v1.project.ProjectApplicationTests]: class path resource [com/v1/project/ProjectApplicationTestsContext.groovy] does not exist
-19:40:47.210 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.v1.project.ProjectApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
-19:40:47.212 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.v1.project.ProjectApplicationTests]: ProjectApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-19:40:47.295 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.v1.project.ProjectApplicationTests]
-19:40:47.413 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [C:\Users\GUSTAVO\Documents\ProjetoIntegrador\projectv1\target\classes\com\v1\project\ProjectApplication.class]
-19:40:47.417 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.v1.project.ProjectApplication for test class com.v1.project.ProjectApplicationTests
-19:40:47.592 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.v1.project.ProjectApplicationTests]: using defaults.
-19:40:47.593 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
-19:40:47.625 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
-19:40:47.626 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
-19:40:47.627 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@47d9a273, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4b8ee4de, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@27f981c6, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@1b11171f, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1151e434, org.springframework.test.context.event.EventPublishingTestExecutionListener@2dc54ad4, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@4659191b, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@55634720, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@4b0d79fc, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4c1909a3, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@428640fa]
-19:40:47.637 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@783a467b testClass = ProjectApplicationTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@272113c4 testClass = ProjectApplicationTests, locations = '{}', classes = '{class com.v1.project.ProjectApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@19bb07ed, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@2667f029, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@31368b99, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@243c4f91, org.springframework.boot.test.context.SpringBootTestArgs@1], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true]], class annotated with @DirtiesContext [false] with mode [null].
-19:40:47.710 [main] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=-1}
-
-  .   ____          _            __ _ _
- /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
-( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
- \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
-  '  |____| .__|_| |_|_| |_\__, | / / / /
- =========|_|==============|___/=/_/_/_/
- :: Spring Boot ::        (v2.2.7.RELEASE)
-
-2020-05-14 19:40:48.249  INFO 14024 --- [           main] com.v1.project.ProjectApplicationTests   : Starting ProjectApplicationTests on DESKTOP-KV4U5JL with PID 14024 (started by GUSTAVO in C:\Users\GUSTAVO\Documents\ProjetoIntegrador\projectv1)
-2020-05-14 19:40:48.255  INFO 14024 --- [           main] com.v1.project.ProjectApplicationTests   : No active profile set, falling back to default profiles: default
-2020-05-14 19:40:49.845  WARN 14024 --- [           main] o.s.w.c.s.GenericWebApplicationContext   : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'marcaController': Unsatisfied dependency expressed through field 'marcaService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.v1.project.service.MarcaService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
-2020-05-14 19:40:49.861  INFO 14024 --- [           main] ConditionEvaluationReportLoggingListener : 
-
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2020-05-14 19:40:50.026 ERROR 14024 --- [           main] o.s.b.d.LoggingFailureAnalysisReporter   : 
-
-***************************
-APPLICATION FAILED TO START
-***************************
-
-Description:
-
-Field marcaService in com.v1.project.controller.MarcaController required a bean of type 'com.v1.project.service.MarcaService' that could not be found.
-
-The injection point has the following annotations:
-	- @org.springframework.beans.factory.annotation.Autowired(required=true)
-
-
-Action:
-
-Consider defining a bean of type 'com.v1.project.service.MarcaService' in your configuration.
-
-2020-05-14 19:40:50.033 ERROR 14024 --- [           main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@47d9a273] to prepare test instance [com.v1.project.ProjectApplicationTests@378bd86d]
-
-java.lang.IllegalStateException: Failed to load ApplicationContext
-	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132) ~[spring-test-5.2.6.RELEASE.jar:5.2.6.RELEASE]
-	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:123) ~[spring-test-5.2.6.RELEASE.jar:5.2.6.RELEASE]
-	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190) ~[spring-test-5.2.6.RELEASE.jar:5.2.6.RELEASE]
-	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132) ~[spring-test-5.2.6.RELEASE.jar:5.2.6.RELEASE]
-	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:244) ~[spring-test-5.2.6.RELEASE.jar:5.2.6.RELEASE]
-	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:98) [spring-test-5.2.6.RELEASE.jar:5.2.6.RELEASE]
-	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$5(ClassBasedTestDescriptor.java:337) [junit-jupiter-engine-5.5.2.jar:5.5.2]
-	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:342) [junit-jupiter-engine-5.5.2.jar:5.5.2]
-	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$6(ClassBasedTestDescriptor.java:337) [junit-jupiter-engine-5.5.2.jar:5.5.2]
-	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193) ~[na:1.8.0_231]
-	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175) ~[na:1.8.0_231]
-	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1382) ~[na:1.8.0_231]
-	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482) ~[na:1.8.0_231]
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472) ~[na:1.8.0_231]
-	at java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:312) ~[na:1.8.0_231]
-	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:743) ~[na:1.8.0_231]
-	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:742) ~[na:1.8.0_231]
-	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:580) ~[na:1.8.0_231]
-	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:336) [junit-jupiter-engine-5.5.2.jar:5.5.2]
-	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:259) [junit-jupiter-engine-5.5.2.jar:5.5.2]
-	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$2(ClassBasedTestDescriptor.java:252) [junit-jupiter-engine-5.5.2.jar:5.5.2]
-	at java.util.Optional.orElseGet(Optional.java:267) ~[na:1.8.0_231]
-	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$3(ClassBasedTestDescriptor.java:251) [junit-jupiter-engine-5.5.2.jar:5.5.2]
-	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:29) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
-	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:106) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.2.jar:1.5.2]
-	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:105) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
-	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:69) ~[junit-jupiter-engine-5.5.2.jar:5.5.2]
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$1(NodeTestTask.java:107) ~[junit-platform-engine-1.5.2.jar:1.5.2]
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.2.jar:1.5.2]
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:107) ~[junit-platform-engine-1.5.2.jar:1.5.2]
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:75) ~[junit-platform-engine-1.5.2.jar:1.5.2]
-	at java.util.ArrayList.forEach(ArrayList.java:1257) ~[na:1.8.0_231]
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38) ~[junit-platform-engine-1.5.2.jar:1.5.2]
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139) ~[junit-platform-engine-1.5.2.jar:1.5.2]
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.2.jar:1.5.2]
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125) ~[junit-platform-engine-1.5.2.jar:1.5.2]
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135) ~[junit-platform-engine-1.5.2.jar:1.5.2]
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123) ~[junit-platform-engine-1.5.2.jar:1.5.2]
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.2.jar:1.5.2]
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122) ~[junit-platform-engine-1.5.2.jar:1.5.2]
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80) ~[junit-platform-engine-1.5.2.jar:1.5.2]
-	at java.util.ArrayList.forEach(ArrayList.java:1257) ~[na:1.8.0_231]
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38) ~[junit-platform-engine-1.5.2.jar:1.5.2]
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139) ~[junit-platform-engine-1.5.2.jar:1.5.2]
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.2.jar:1.5.2]
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125) ~[junit-platform-engine-1.5.2.jar:1.5.2]
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135) ~[junit-platform-engine-1.5.2.jar:1.5.2]
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123) ~[junit-platform-engine-1.5.2.jar:1.5.2]
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.5.2.jar:1.5.2]
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122) ~[junit-platform-engine-1.5.2.jar:1.5.2]
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80) ~[junit-platform-engine-1.5.2.jar:1.5.2]
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32) ~[junit-platform-engine-1.5.2.jar:1.5.2]
-	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[junit-platform-engine-1.5.2.jar:1.5.2]
-	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51) ~[junit-platform-engine-1.5.2.jar:1.5.2]
-	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:220) ~[junit-platform-launcher-1.3.1.jar:1.3.1]
-	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:188) ~[junit-platform-launcher-1.3.1.jar:1.3.1]
-	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:202) ~[junit-platform-launcher-1.3.1.jar:1.3.1]
-	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:181) ~[junit-platform-launcher-1.3.1.jar:1.3.1]
-	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128) ~[junit-platform-launcher-1.3.1.jar:1.3.1]
-	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:150) ~[surefire-junit-platform-2.22.2.jar:2.22.2]
-	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:124) ~[surefire-junit-platform-2.22.2.jar:2.22.2]
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384) ~[surefire-booter-2.22.2.jar:2.22.2]
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345) ~[surefire-booter-2.22.2.jar:2.22.2]
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126) ~[surefire-booter-2.22.2.jar:2.22.2]
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418) ~[surefire-booter-2.22.2.jar:2.22.2]
-Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'marcaController': Unsatisfied dependency expressed through field 'marcaService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.v1.project.service.MarcaService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
-	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
-	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
-	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:895) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
-	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878) ~[spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550) ~[spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747) ~[spring-boot-2.2.7.RELEASE.jar:2.2.7.RELEASE]
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) ~[spring-boot-2.2.7.RELEASE.jar:2.2.7.RELEASE]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) ~[spring-boot-2.2.7.RELEASE.jar:2.2.7.RELEASE]
-	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:124) ~[spring-boot-test-2.2.7.RELEASE.jar:2.2.7.RELEASE]
-	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99) ~[spring-test-5.2.6.RELEASE.jar:5.2.6.RELEASE]
-	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124) ~[spring-test-5.2.6.RELEASE.jar:5.2.6.RELEASE]
-	... 65 common frames omitted
-Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.v1.project.service.MarcaService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1716) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1272) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1226) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
-	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
-	... 83 common frames omitted
-
-]]></system-out>
-  </testcase>
+  <testcase name="contextLoads" classname="com.v1.project.ProjectApplicationTests" time="0.369"/>
 </testsuite>

@@ -2,6 +2,7 @@ package com.v1.project.dao;
 
 import com.v1.project.factory.ConnectionFactory;
 import com.v1.project.model.Marca;
+import org.springframework.stereotype.Repository;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -11,11 +12,12 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
+@Repository
 public class MarcaDAO {
 
     public static boolean save(Marca marca) {
         final Connection con = ConnectionFactory.getConnection();
-        String sql = "insert into marca(name) values(?);";
+        String sql = "insert into marca(nome) values(?)";
         PreparedStatement stmt = null;
 
         try {
@@ -62,7 +64,7 @@ public class MarcaDAO {
         final Connection con = ConnectionFactory.getConnection();
         PreparedStatement stmt = null;
         ResultSet rs = null;
-        String sql = "select * from marca where id=?;";
+        String sql = "select * from marca where id=?";
         Marca marca = new Marca();
 
         try {
@@ -85,7 +87,7 @@ public class MarcaDAO {
 
     public static boolean update(Marca marca) {
         final Connection con = ConnectionFactory.getConnection();
-        String sql = "UPDATE marca SET nome=? WHERE id=?;";
+        String sql = "UPDATE marca SET nome=? WHERE id=?";
         PreparedStatement stmt = null;
 
         try {
@@ -104,7 +106,7 @@ public class MarcaDAO {
 
     public static boolean delete(Long id) {
         final Connection con = ConnectionFactory.getConnection();
-        String sql = "delete from marca where id = ?;";
+        String sql = "delete from marca where id = ?";
         PreparedStatement stmt = null;
 
         try {

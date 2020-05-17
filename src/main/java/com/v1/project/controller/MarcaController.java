@@ -33,7 +33,7 @@ public class MarcaController {
         }
     }
 
-    @PutMapping(path = "/{id}")
+    @PutMapping(path = "")
     public ResponseEntity update(@RequestBody Marca marca) {
 
         if (marcaService.update(marca)) {

@@ -2,6 +2,7 @@ package com.v1.project.dao;
 
 import com.v1.project.factory.ConnectionFactory;
 import com.v1.project.model.Multa;
+import org.springframework.stereotype.Repository;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -11,6 +12,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
+@Repository
 public class MultaDAO {
 
     public static boolean save(Multa multa) {
@@ -65,7 +67,7 @@ public class MultaDAO {
         final Connection con = ConnectionFactory.getConnection();
         PreparedStatement stmt = null;
         ResultSet rs = null;
-        String sql = "select * from multa where id=?;";
+        String sql = "select * from multa where id=?";
         Multa multa = new Multa();
 
         try {
@@ -89,7 +91,7 @@ public class MultaDAO {
 
     public static boolean update(Multa multa) {
         final Connection con = ConnectionFactory.getConnection();
-        String sql = "UPDATE multa SET tempo=?, valor=? WHERE id=?;";
+        String sql = "UPDATE multa SET tempo=?, valor=? WHERE id=?";
         PreparedStatement stmt = null;
 
         try {
@@ -109,7 +111,7 @@ public class MultaDAO {
 
     public static boolean delete(Long id) {
         final Connection con = ConnectionFactory.getConnection();
-        String sql = "delete from multa where id = ?;";
+        String sql = "delete from multa where id = ?";
         PreparedStatement stmt = null;
 
         try {
