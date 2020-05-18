@@ -5,10 +5,7 @@ import com.v1.project.model.Aluguel;
 import com.v1.project.view.SaveAndUpdateAluguel;
 import org.springframework.stereotype.Repository;
 
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
+import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -26,7 +23,10 @@ public class AluguelDAO {
             stmt.setDate(1, saveAndUpdateAluguel.getData());
             stmt.setLong(2, saveAndUpdateAluguel.getBicicleta());
             stmt.setLong(3, saveAndUpdateAluguel.getMetodoDePagamento());
-            stmt.setLong(4, saveAndUpdateAluguel.getMulta() == null ? null : saveAndUpdateAluguel.getMulta());
+            if (saveAndUpdateAluguel.getMulta() == null)
+                stmt.setNull(4, Types.NULL);
+            else
+                stmt.setLong(4, saveAndUpdateAluguel.getMulta());
             stmt.setLong(5, saveAndUpdateAluguel.getStatus());
             stmt.setLong(6, saveAndUpdateAluguel.getUsuario());
             stmt.executeUpdate();
@@ -112,7 +112,10 @@ public class AluguelDAO {
             stmt.setDate(1, saveAndUpdateAluguel.getData());
             stmt.setLong(2, saveAndUpdateAluguel.getBicicleta());
             stmt.setLong(3, saveAndUpdateAluguel.getMetodoDePagamento());
-            stmt.setLong(4, saveAndUpdateAluguel.getMulta() == null ? null : saveAndUpdateAluguel.getMulta());
+            if (saveAndUpdateAluguel.getMulta() == null)
+                stmt.setNull(4, Types.NULL);
+            else
+                stmt.setLong(4, saveAndUpdateAluguel.getMulta());
             stmt.setLong(5, saveAndUpdateAluguel.getStatus());
             stmt.setLong(6, saveAndUpdateAluguel.getUsuario());
             stmt.setLong(7, saveAndUpdateAluguel.getId());
