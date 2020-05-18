@@ -1,4 +1,4 @@
-package com.v1.project.model;
+package com.v1.project.view;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.*;
@@ -10,16 +10,15 @@ import java.sql.Date;
 @NoArgsConstructor
 @ToString
 @AllArgsConstructor
-public class Multa {
+public class SaveAndUpdateAluguel {
 
     private Long id;
     @JsonFormat(pattern = "dd-MM-yyyy")
     private Date data;
-    private Long valor;
-
-    public Multa(Date data, Long valor) {
-        this.data = data;
-        this.valor = valor;
-    }
+    private Long bicicleta;
+    private Long metodoDePagamento;
+    private Long multa;
+    private Long status;
+    private Long usuario;
 
 }

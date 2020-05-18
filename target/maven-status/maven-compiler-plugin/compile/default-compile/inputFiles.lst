@@ -3,6 +3,7 @@
 /home/grs/Documentos/SpringBoot/project/src/main/java/com/v1/project/dao/BicicletaDAO.java
 /home/grs/Documentos/SpringBoot/project/src/main/java/com/v1/project/model/Modelo.java
 /home/grs/Documentos/SpringBoot/project/src/main/java/com/v1/project/service/MarcaService.java
+/home/grs/Documentos/SpringBoot/project/src/main/java/com/v1/project/util/CalculaMuta.java
 /home/grs/Documentos/SpringBoot/project/src/main/java/com/v1/project/service/CorService.java
 /home/grs/Documentos/SpringBoot/project/src/main/java/com/v1/project/controller/PessoaController.java
 /home/grs/Documentos/SpringBoot/project/src/main/java/com/v1/project/model/Aluguel.java
@@ -23,6 +24,7 @@
 /home/grs/Documentos/SpringBoot/project/src/main/java/com/v1/project/dao/MultaDAO.java
 /home/grs/Documentos/SpringBoot/project/src/main/java/com/v1/project/service/ModeloService.java
 /home/grs/Documentos/SpringBoot/project/src/main/java/com/v1/project/model/Cor.java
+/home/grs/Documentos/SpringBoot/project/src/main/java/com/v1/project/view/SaveAndUpdateUsuario.java
 /home/grs/Documentos/SpringBoot/project/src/main/java/com/v1/project/dao/PessoaDAO.java
 /home/grs/Documentos/SpringBoot/project/src/main/java/com/v1/project/model/Marca.java
 /home/grs/Documentos/SpringBoot/project/src/main/java/com/v1/project/service/BicicletaService.java
@@ -39,4 +41,6 @@
 /home/grs/Documentos/SpringBoot/project/src/main/java/com/v1/project/controller/CorController.java
 /home/grs/Documentos/SpringBoot/project/src/main/java/com/v1/project/dao/CorDAO.java
 /home/grs/Documentos/SpringBoot/project/src/main/java/com/v1/project/controller/UsuarioController.java
+/home/grs/Documentos/SpringBoot/project/src/main/java/com/v1/project/view/SaveAndUpdateAluguel.java
 /home/grs/Documentos/SpringBoot/project/src/main/java/com/v1/project/dao/UsuarioDAO.java
+/home/grs/Documentos/SpringBoot/project/src/main/java/com/v1/project/view/SaveAndUpdateBicicleta.java

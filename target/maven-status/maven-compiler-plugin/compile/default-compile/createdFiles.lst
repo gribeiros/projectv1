@@ -34,7 +34,9 @@ com/v1/project/service/StatusService.class
 com/v1/project/dao/ModeloDAO.class
 com/v1/project/service/MultaService.class
 com/v1/project/model/Aluguel.class
+com/v1/project/view/SaveAndUpdateAluguel.class
 com/v1/project/controller/MarcaController.class
+com/v1/project/util/CalculaMuta.class
 com/v1/project/model/MetodoDePagamento.class
 com/v1/project/dao/MetodoDePagamentoDAO.class
 com/v1/project/service/BicicletaService.class
